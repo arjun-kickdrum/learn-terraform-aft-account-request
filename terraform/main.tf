@@ -31,7 +31,7 @@ module "tenantacc" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jating32+sandbox@gmail.com"
+    AccountEmail              = "jating32+tenantacc@gmail.com"
     AccountName               = "tenant-acc-new"
     ManagedOrganizationalUnit = "Tenants"
     SSOUserEmail              = "arjunb.r@kickdrumtech.com"
